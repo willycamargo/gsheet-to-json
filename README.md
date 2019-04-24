@@ -6,7 +6,6 @@ This package is a ES6 module that helps you to fetch and process data from publi
 # Notes
 1. Although improbable, it is possible that the way the google API returns data is changed and, therefore, this package will broke.
 2. This package uses [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and doesn't support legacy browsers without a polyfill.
-3. The script is written in ES6 and isn't preprocessed, so it will broke if your app doesn't support ES6
 
 # Usage
 
@@ -18,7 +17,7 @@ You'll find your spreadsheetId in your spreadsheet URL
 
 ![Spreadsheet screenshot with spreadsheet id highlighted](./spreadsheet-id.jpg)
 
-On image above the spreadsheet URL is
+In the screenshot above the spreadsheet URL is
 ```
 https://docs.google.com/spreadsheets/d/1vETd54ohHGEWPbpnqBdmW8vXnQViIhmnGxOMo62qRzM/edit#gid=0
 ```
