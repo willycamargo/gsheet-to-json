@@ -1,10 +1,10 @@
 # Google Spreadsheet to JSON
-> **WARNING**: This is an experimental package and I really don't recommend to use it in production.
+> **WARNING**: This is an experimental package, and I don't recommend using this in a production environment.
 
-This package is an ES6 module that helps you to fetch and process data from public google spreadsheet.
+This package is an ES6 module that helps you to fetch and process data from a public google spreadsheet.
 
 # Notes
-1. Although improbable, it is possible that the way the google API returns data is changed and, therefore, this package will broke.
+1. Although improbable, it is possible that the way the Google API returns data is changed and, therefore, this package will break.
 2. This package uses [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and doesn't support legacy browsers without a polyfill.
 
 # Usage
@@ -13,7 +13,7 @@ This package is an ES6 module that helps you to fetch and process data from publ
 First, you must publish your spreadsheet to the web, using File -> Publish To Web in your Google Spreadsheet.
 
 ## Getting spreadsheetId
-You'll find your spreadsheetId in your spreadsheet URL
+You'll find your `spreadsheetId` in your spreadsheet URL
 
 ![Spreadsheet screenshot with spreadsheet id highlighted](./spreadsheet-id.jpg)
 
@@ -111,4 +111,4 @@ The result of `gotCharacters` is:
 | columns  | boolean - optional | true    | Setting 'columns' to false will return only row data                                                           
 
 # Credits
-This project was completely inspired and based on [gsx2json](https://github.com/55sketch/gsx2json) by [Nick Moreton](https://github.com/55sketch)
+This project was thoroughly encouraged and based on [gsx2json](https://github.com/55sketch/gsx2json) by [Nick Moreton](https://github.com/55sketch)
