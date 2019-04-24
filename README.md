@@ -1,7 +1,7 @@
 # Google Spreadsheet to JSON
-> **WARNING**: This is a experimental package and I really don't recommend to use it in production.
+> **WARNING**: This is an experimental package and I really don't recommend to use it in production.
 
-This package is a ES6 module that helps you to fetch and process data from public google spreadsheet.
+This package is an ES6 module that helps you to fetch and process data from public google spreadsheet.
 
 # Notes
 1. Although improbable, it is possible that the way the google API returns data is changed and, therefore, this package will broke.
