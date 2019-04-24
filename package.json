@@ -1,0 +1,26 @@
+{
+  "name": "gsheet-to-json",
+  "version": "0.1.0",
+  "description": "ES6 Module to fetch, read, process and format data from Google Spreadsheet to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/willycamargo/gsheet-to-json.git"
+  },
+  "keywords": [
+    "spreadsheet",
+    "google",
+    "sheet",
+    "json",
+    "api"
+  ],
+  "author": "Willy Camargo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willycamargo/gsheet-to-json/issues"
+  },
+  "homepage": "https://github.com/willycamargo/gsheet-to-json#readme"
+}
