@@ -1,6 +1,6 @@
 {
   "name": "gsheet-to-json",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ES6 Module to fetch, read, process and format data from Google Spreadsheet to JSON",
   "main": "lib/index.js",
   "scripts": {
